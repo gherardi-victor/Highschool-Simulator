@@ -25,5 +25,6 @@ public class Student extends Thread{
         }
         // lo studente ha finito la verifica, cambiare lo stato e cambiare immagine
         this.testCompleted = true;
+        // chiamare un metodo su app per controllare se tutti gli bstudenti hanoo fnito il test, se tutti finito cambio variabile e profe si ferma
     }
 }
