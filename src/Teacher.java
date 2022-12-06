@@ -20,6 +20,7 @@ public class Teacher extends Thread{
     public void run(){
         int MIN_WAIT = 2;
         int MAX_WAIT = 6;
+        // while (!App.verifica_finita), variabile da creare a test
         while(true){
             // scegliere un percorso random
             int pathNumber = (int) (Math.random() * Teacher.paths.length);
