@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)">
+      <change afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +72,36 @@
       <option name="presentableId" value="Default" />
       <updated>1670238327391</updated>
       <workItem from="1670257894284" duration="3478000" />
-      <workItem from="1670261388273" duration="2416000" />
+      <workItem from="1670261388273" duration="2761000" />
+      <workItem from="1670522604674" duration="816000" />
+      <workItem from="1670528018724" duration="3016000" />
     </task>
+    <task id="LOCAL-00001" summary="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)">
+      <created>1670264138818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670264138818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)" />
   </component>
 </project>
