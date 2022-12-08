@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)">
-      <change afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +69,7 @@
       <workItem from="1670257894284" duration="3478000" />
       <workItem from="1670261388273" duration="2761000" />
       <workItem from="1670522604674" duration="816000" />
-      <workItem from="1670528018724" duration="3016000" />
+      <workItem from="1670528018724" duration="3334000" />
     </task>
     <task id="LOCAL-00001" summary="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)">
       <created>1670264138818</created>
