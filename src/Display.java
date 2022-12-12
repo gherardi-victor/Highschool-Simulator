@@ -27,6 +27,9 @@ public class Display extends JFrame {
         JPanel panel = new JPanel();
         JPanel gamePanel = new JPanel();
 
+        Clock clock = new Clock();
+        container.add(clock.tempo);
+
         panel.setVisible(true);
         gamePanel.setVisible(true);
 
@@ -40,6 +43,12 @@ public class Display extends JFrame {
         gamePanel.setBackground(Color.red);;
         container.add(panel);
         container.add(gamePanel);
+
+        //bottoni
+        JButton bottone1 = new JButton("bottone 1");
+        bottone1.setBounds(10, 10, 100, 50);
+        panel.add(bottone1);
+
 
         // Clock clock = new Clock();
         // Student victor = new Student();
