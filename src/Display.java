@@ -19,7 +19,7 @@ public class Display extends JFrame {
 
     public void init(){
         System.out.println("program started");
-        // App app = new App();
+        //App app = new App();
 
         Container container=getContentPane();
         container.setLayout(null);
@@ -33,20 +33,13 @@ public class Display extends JFrame {
         panel.setLayout(null);
         gamePanel.setLayout(null);
 
-        panel.setSize(500,500);
-        panel.setLocation(100,100);
-        // panel.setBounds(100,100,500,500);
-        gamePanel.setBounds(400,0,1440-400,850);
-
-        panel.setSize(200, 100);
-        gamePanel.setSize(400, 100);
+        panel.setBounds(0,0,300,850);
+        gamePanel.setBounds(300,0,1440,850);
 
         panel.setBackground(Color.green);
-        gamePanel.setBackground(Color.red);
-
+        gamePanel.setBackground(Color.red);;
         container.add(panel);
-        // container.add(gamePanel);
-        // add(container);
+        container.add(gamePanel);
 
         // Clock clock = new Clock();
         // Student victor = new Student();
