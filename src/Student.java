@@ -13,6 +13,7 @@ public class Student extends Thread{
         int MIN_WAIT = App.GAME_SEC / 100;
         int MAX_WAIT = MIN_WAIT * 4;
         for(int i = 0; i < 100; i++){
+            if(!App.PLAYING) return;
             try {
                 this.progress = i;
                 System.out.println(this.progress);
