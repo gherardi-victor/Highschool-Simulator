@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24350382-b28c-47a4-92f0-9888e1c3fbab" name="Changes" comment="">
+    <list default="true" id="9370eb23-1725-4369-98f2-4e737d006c49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Event.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/alunno_default.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/alunno_fine.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/alunno_inizio.JPG" afterDir="false" />
@@ -33,21 +34,17 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2J5IFWQtzoCW5zdFaLQtLJMzKQB" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2J6EHphaxKKTwWwu4Y4zYZovOy6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/gherardi/Downloads/Highschool-Simulator/src",
+    "last_opened_file_path": "/home/gherardi/Music/Highschool-Simulator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,27 +52,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24350382-b28c-47a4-92f0-9888e1c3fbab" name="Changes" comment="" />
-      <created>1671361415533</created>
+      <changelist id="9370eb23-1725-4369-98f2-4e737d006c49" name="Changes" comment="" />
+      <created>1671390047293</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671361415533</updated>
-      <workItem from="1671361416567" duration="7628000" />
+      <updated>1671390047293</updated>
+      <workItem from="1671390048609" duration="4929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

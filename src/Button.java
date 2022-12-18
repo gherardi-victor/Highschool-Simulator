@@ -10,10 +10,10 @@ public class Button {
     public static JButton crea(String text){
         JButton button = new JButton(text);
         button.setBounds(20, Button.y, Display.PANEL_WIDTH - 40, 50);
-        button.setFont(new Font("Helvetica Neue", Font.BOLD, 20));
+        button.setFont(new Font("Helvetica Neue", Font.BOLD, 16));
         button.setBorderPainted(false);
         button.setFocusPainted(false);
-        Button.y += 70;
+        Button.y += 230;
         return button;
     }
 }

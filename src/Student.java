@@ -29,7 +29,10 @@ public class Student extends Thread{
         int MIN_WAIT = App.GAME_SEC / 100;
         int MAX_WAIT = MIN_WAIT * 3;
         for(int i = 0; i < 100; i++){
-            if(!App.PLAYING) return;
+            if(!App.PLAYING) {
+                content.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("alunno_fine.JPG"))));
+                return;
+            }
             try {
                 progress.setText(i + "%");
                 int wait = Student.random.nextInt(MAX_WAIT - MIN_WAIT) + MIN_WAIT;
@@ -38,10 +41,9 @@ public class Student extends Thread{
                 System.out.println("errore nel progresso della verifica: " + e.getMessage());
             }
         }
-        // lo studente ha finito la verifica, cambiare lo stato e cambiare immagine
         content.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("alunno_fine.JPG"))));
-        progress.setText("100");
+        progress.setText("100%");
         this.testCompleted = true;
-        // chiamare un metodo su app per controllare se tutti gli bstudenti hanoo fnito il test, se tutti finito cambio variabile e profe si ferma
+        Clock.controllo();
     }
 }

@@ -4,6 +4,8 @@ import java.awt.*;
 public class Clock extends Thread {
     public String time;
     public JLabel content;
+    public static Student[] studenti;
+    public static Container container;
     public Clock(){
         content = new JLabel("60:00");
         content.setFont(new Font("Helvetica Neue", Font.BOLD, 28));
@@ -11,9 +13,38 @@ public class Clock extends Thread {
         content.setVisible(true);
     }
 
+    public static void controllo(){
+        boolean vinto = true;
+        for(int i = 0; i < Clock.studenti.length; i++){
+            if (!Clock.studenti[i].testCompleted) {
+                vinto = false;
+                break;
+            }
+        }
+        JLabel risultato = new JLabel("HAI PERSO");
+        risultato.setForeground(Color.red);
+        risultato.setFont(new Font("Helvetica Neue", Font.BOLD, 28));
+        risultato.setBounds(1200, 680, 200, 150);
+        risultato.setVisible(true);
+        if(!App.PLAYING){
+            if(vinto){
+                risultato.setForeground(Color.green);
+                risultato.setText("HAI VINTO");
+            }
+            Clock.container.add(risultato);
+        } else{
+            if (vinto) {
+                risultato.setForeground(Color.green);
+                risultato.setText("HAI VINTO");
+                App.PLAYING = false;
+                Clock.container.add(risultato);
+            }
+        }
+    }
+
     public void run(){
-        if(!App.PLAYING) return;
         for(int sec = 0; sec < App.REAL_SEC; sec++){
+            if(!App.PLAYING) break;
             // se mancano meno di 10 minuti metti il clock in rosso
             if((int)(59 - Math.floor(sec / 60)) < 10) content.setForeground(Color.red);
 
@@ -30,8 +61,7 @@ public class Clock extends Thread {
                 System.out.println("errore nel clock: " + e.getMessage());
             }
         }
-        // fare controllo tra gli studenti, se c'è ne uno che non ha finito perdi la partita
-        System.out.println("test ended");
         App.PLAYING = false;
+        Clock.controllo();
     }
 }

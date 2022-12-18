@@ -5,21 +5,34 @@ import java.util.Random;
 public class Teacher extends Thread{
     static Random random = new Random();
     public JLabel content;
-    public int x = 650;
-    public int y = 500;
+    public int x = 755;
+    public int y = 620;
     public Teacher(){
-        content = new JLabel(new ImageIcon(Objects.requireNonNull(getClass().getResource("alunno_default.jpg"))));
-        content.setBounds(this.x, this.y , 150, 125);
+        content = new JLabel(new ImageIcon(Objects.requireNonNull(getClass().getResource("teacher.jpg"))));
+        content.setBounds(this.x, this.y , 45, 46);
         content.setVisible(true);
     }
     // da sostituire con le ccordinate dei pointer del profe
     public int[][] location = {
-            {300, 200}, {x, 200}, {700, 200},
-            {300, 350}, {x, 350}, {700, 350},
+            {x - 200, 200}, {x, 200}, {x + 200, 200},
+            {x - 200, 350}, {x, 340}, {x + 200, 350},
                          {x, y},
     };
     // i numeri qui dentro si riferiscono alla posizione nell'array sopra, devono iniziare con la cattedra e finire con la cattedra
-    public int[][] paths = {{ 5, 2, 1, 0, 3, 4, 6}, { 5, 2, 1, 0, 3, 4, 6}, { 5, 2, 1, 0, 3, 4, 6}, { 5, 2, 1, 0, 3, 4, 6}};
+    public int[][] paths = {{ 5, 2, 1, 0, 3, 4, 6},
+            { 3, 0, 1, 4, 1, 2, 5, 6},
+            { 4, 5, 2, 1, 2, 0, 3, 6},
+            { 3, 0, 1, 2, 5, 4, 6},
+            { 4, 5, 2, 1, 4, 3, 0, 1, 2, 5, 4, 5, 6},
+            { 5, 2, 5, 6},
+            {3, 4, 1, 0, 1, 2, 5, 4, 6},
+            { 3, 0, 1, 2, 1, 4, 3, 6},
+            { 3, 4, 5, 2, 5, 6},
+            { 4, 1, 0, 3, 0, 1, 0, 1, 2, 5, 6},
+            {4, 1, 2, 5, 6},
+            { 4, 5, 6},
+            { 3, 0, 1, 2, 5, 6},
+            { 5, 2, 1, 0, 1, 0, 3, 0, 1, 4, 6}};
     public void run(){
         int MIN_WAIT = 2;
         int MAX_WAIT = 6;
