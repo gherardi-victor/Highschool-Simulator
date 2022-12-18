@@ -4,121 +4,78 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="finito pannelli iniziali">
-      <change afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
+    <list default="true" id="24350382-b28c-47a4-92f0-9888e1c3fbab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alunno_default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alunno_fine.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alunno_inizio.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cattedra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teacher.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="89f79878-0e42-4065-89eb-e971ff172684" />
-        <option name="url" value="https://github.com/gherardi-victor/Highschool-Simulator.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectId" id="2IUZrxfdbxjyZ9sCrymFgU8uqVO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="2J5IFWQtzoCW5zdFaLQtLJMzKQB" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gherardi/Desktop/Highschool-Simulator&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/gherardi/Downloads/Highschool-Simulator/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32a80cd9-03bc-4064-b81a-a13777262ef2" name="Changes" comment="" />
-      <created>1670238327391</created>
+      <changelist id="24350382-b28c-47a4-92f0-9888e1c3fbab" name="Changes" comment="" />
+      <created>1671361415533</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670238327391</updated>
-      <workItem from="1670257894284" duration="3478000" />
-      <workItem from="1670261388273" duration="2761000" />
-      <workItem from="1670522604674" duration="816000" />
-      <workItem from="1670528018724" duration="3334000" />
+      <updated>1671361415533</updated>
+      <workItem from="1671361416567" duration="7628000" />
     </task>
-    <task id="LOCAL-00001" summary="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)">
-      <created>1670264138818</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1670264138818</updated>
-    </task>
-    <task id="LOCAL-00002" summary="finito pannelli iniziali">
-      <created>1670843152823</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1670843152823</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggiunte classi e creato feature di base, clock, progresso del test, spostamento del prof (di tutto no GUI)" />
-    <MESSAGE value="finito pannelli iniziali" />
-    <option name="LAST_COMMIT_MESSAGE" value="finito pannelli iniziali" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -12,7 +12,7 @@ public class Clock extends Thread {
     }
 
     public void run(){
-
+        if(!App.PLAYING) return;
         for(int sec = 0; sec < App.REAL_SEC; sec++){
             // se mancano meno di 10 minuti metti il clock in rosso
             if((int)(59 - Math.floor(sec / 60)) < 10) content.setForeground(Color.red);
@@ -32,5 +32,6 @@ public class Clock extends Thread {
         }
         // fare controllo tra gli studenti, se c'è ne uno che non ha finito perdi la partita
         System.out.println("test ended");
+        App.PLAYING = false;
     }
 }

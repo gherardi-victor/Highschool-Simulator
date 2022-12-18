@@ -13,7 +13,6 @@ public class Button {
         button.setFont(new Font("Helvetica Neue", Font.BOLD, 20));
         button.setBorderPainted(false);
         button.setFocusPainted(false);
-        button.setEnabled(false);
         Button.y += 70;
         return button;
     }
