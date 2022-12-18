@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9370eb23-1725-4369-98f2-4e737d006c49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alunno_default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alunno_fine.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alunno_inizio.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cattedra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teacher.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9370eb23-1725-4369-98f2-4e737d006c49" name="Changes" comment="sistemato pulsanti, posizione profe, bug fixes. gioco finito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +33,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,11 +45,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671390047293</updated>
-      <workItem from="1671390048609" duration="4929000" />
+      <workItem from="1671390048609" duration="5118000" />
     </task>
+    <task id="LOCAL-00001" summary="sistemato pulsanti, posizione profe, bug fixes. gioco finito">
+      <created>1671395077308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671395077308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sistemato pulsanti, posizione profe, bug fixes. gioco finito" />
+    <option name="LAST_COMMIT_MESSAGE" value="sistemato pulsanti, posizione profe, bug fixes. gioco finito" />
   </component>
 </project>
